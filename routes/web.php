@@ -25,3 +25,6 @@ Route::get('/pruebaJhonn', function(){
     return view('prueba.sad');
 });
 
+Route::get('/rama02', function(){
+    return view('prueba.rama02');
+});
