@@ -22,6 +22,6 @@ Route::get('/primeraPagina', function(){
 });
 
 Route::get('/pruebaJhonn', function(){
-    return view('sad');
+    return view('prueba.sad');
 });
 
