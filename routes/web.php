@@ -21,3 +21,6 @@ Route::get('/primeraPagina', function(){
     return view('prueba.index');
 });
 
+Route::get('/prueba', function(){
+    return view('sad');
+});
